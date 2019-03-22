@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+body{
+	font-family: 'Quicksand', sans-serif;
+	font:18px/1.8, 400, 'Quicksand', sans-serif;
+	color:#000;
+	background-color: #E3EBEC;
+}
+
+/* Layout */
+.ba-container{
+	margin-top:52px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 400px;
+	min-height: 496px;
+	background-image:linear-gradient(rgba(192, 6, 248, 0.5), rgba(97, 4, 202, 0.925)),url(../img/vector.jpg);
+	margin:0 auto;
+}
+.ba-sign-form{
+	margin:52px 0 0 0;
+	min-width: 261px;
+}
+.ba-sign-form fieldset{
+	margin: 0;
+	padding: 0;
+	border:none;
+}
+.ba-sign-form input[type="text"],input[type="password"]{
+ border:2px solid rgba(191, 185, 204, 54);
+ width:100%;
+ height:42px;
+ margin-bottom: 16px;
+ margin-top:9px;
+ background-color: transparent;
+}
+.ba-sign-form label {
+	display: block;
+	color:#fbf6e4;
+	font-size: 16px;
+	letter-spacing: 0.065em;
+}
+
+.ba-sign-form button{
+	width:100%;
+	height:42px;
+	background-color: #23AC90;
+	color:#fbf6e4;
+	border:none;
+	margin-top:42px;
+	margin-bottom: 31px;
+	font-weight: 700;
+	letter-spacing: 0.065em;
+}
+.ba-sign-form__checkbox label{
+	font-size: 13px;
+	display: inline-block;
+}
+
+
+.ba-sign-form__a--top{
+	letter-spacing: 0.065em;
+	display: inline-block;
+	margin-bottom:51px;
+	margin-top: 52px;
+	margin-right:26px;
+}
+.ba-sign-form__a--top a{
+	color:#e1c2f1;
+	font-size:18px;
+	text-decoration: none;
+}
+.ba-sign-form__a--top a:hover{
+	color:#fff;
+	border:none;
+}
+.ba-sign-form__a--active a{
+	color:#fbf6e4;
+	text-decoration: none;
+	border-bottom: 2px solid #e66a64;
+
+}
+.ba-sign-form__a--bottom {
+	display: inline-flex;
+	justify-content:space-between;
+	width:100%;
+}
+.ba-sign-form__a--bottom a:hover{
+	color:#fff;
+	border:none;
+}
+.ba-sign-form__a--bottom a{
+	text-decoration: none;
+	font-size: 13px;
+	color:#b9b9cc;
+	letter-spacing: 0.065em;
+	border-bottom:1px solid rgba(150, 193, 218, 0.15);;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color: transparent;
+	color:#D42CC3;
+	border:1px solid #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	outline: none; 
+	box-shadow: 0 0 0 0 #555;
+}
+textarea {
+
+}
